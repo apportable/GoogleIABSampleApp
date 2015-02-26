@@ -1,0 +1,18 @@
+.DS_Store
+.svn
+.idea
+*.mode1v3
+*.pbxuser
+/Build/
+local.properties
+.ninja_log
+build.ninja
+xcuserdata
+*.pyc
+.sconsign.dblite
+.jdbrc
+*.pyo
+*.orig
+.sys.sess
+*~
+IAB Sample.xcodeproj/project.xcworkspace/xcshareddata/

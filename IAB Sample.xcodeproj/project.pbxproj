@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1480FCF91979C11200644F20 /* IABSample.java in Sources */ = {isa = PBXBuildFile; fileRef = 1480FCF81979C11200644F20 /* IABSample.java */; };
+		1480FCFC1979C1DC00644F20 /* R.m in Sources */ = {isa = PBXBuildFile; fileRef = 1480FCFB1979C1DC00644F20 /* R.m */; };
+		5B4679D71976F7050026BAAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4679D61976F7050026BAAF /* Foundation.framework */; };
+		5B4679E11976F7050026BAAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B4679DF1976F7050026BAAF /* InfoPlist.strings */; };
+		5B467A071976F76D0026BAAF /* IABSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B467A061976F76D0026BAAF /* IABSample.m */; };
+		BC869D021A7C39B70029DB47 /* JavaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC869D011A7C39B70029DB47 /* JavaKit.framework */; };
+		BC869D041A7C3A160029DB47 /* CoreJava.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC869D031A7C3A160029DB47 /* CoreJava.framework */; };
+		BC869D051A7C3A240029DB47 /* CoreJava.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC869D031A7C3A160029DB47 /* CoreJava.framework */; };
+		BC869D071A7C3A4B0029DB47 /* AndroidKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC869D061A7C3A4B0029DB47 /* AndroidKit.framework */; };
+		BC869D091A7C3DB60029DB47 /* JavaFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC869D081A7C3DB60029DB47 /* JavaFoundation.framework */; };
+		BCAFD53F1A9328080081AFF4 /* GoogleIAB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAFD53E1A9328080081AFF4 /* GoogleIAB.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B467A1E1976F98D0026BAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B4679CB1976F7050026BAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B467A101976F8880026BAAF;
+			remoteInfo = "IAB Java";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1480FCF81979C11200644F20 /* IABSample.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = IABSample.java; path = "IAB Sample/java/com/apportable/bridgekitv3/iab/IABSample.java"; sourceTree = SOURCE_ROOT; };
+		1480FCFA1979C1DC00644F20 /* R.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R.h; sourceTree = "<group>"; };
+		1480FCFB1979C1DC00644F20 /* R.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R.m; sourceTree = "<group>"; };
+		5B4679D31976F7050026BAAF /* IAB Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IAB Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4679D61976F7050026BAAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B4679D81976F7050026BAAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B4679DE1976F7050026BAAF /* IAB Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IAB Sample-Info.plist"; sourceTree = "<group>"; };
+		5B4679E01976F7050026BAAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B4679E41976F7050026BAAF /* IAB Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IAB Sample-Prefix.pch"; sourceTree = "<group>"; };
+		5B4679EF1976F7050026BAAF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5B467A051976F76D0026BAAF /* IABSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IABSample.h; sourceTree = "<group>"; };
+		5B467A061976F76D0026BAAF /* IABSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IABSample.m; sourceTree = "<group>"; };
+		5B467A0A1976F7B90026BAAF /* AndroidManifest.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AndroidManifest.xml; sourceTree = "<group>"; };
+		5B467A111976F8880026BAAF /* IAB Java.jar */ = {isa = PBXFileReference; explicitFileType = compiled.java.jar; includeInIndex = 0; path = "IAB Java.jar"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC869D011A7C39B70029DB47 /* JavaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaKit.framework; path = System/Library/Frameworks/JavaKit.framework; sourceTree = SDKROOT; };
+		BC869D031A7C3A160029DB47 /* CoreJava.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreJava.framework; path = System/Library/Frameworks/CoreJava.framework; sourceTree = SDKROOT; };
+		BC869D061A7C3A4B0029DB47 /* AndroidKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AndroidKit.framework; path = System/Library/Frameworks/AndroidKit.framework; sourceTree = SDKROOT; };
+		BC869D081A7C3DB60029DB47 /* JavaFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaFoundation.framework; path = System/Library/Frameworks/JavaFoundation.framework; sourceTree = SDKROOT; };
+		BCAFD53E1A9328080081AFF4 /* GoogleIAB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleIAB.framework; path = System/Library/Frameworks/GoogleIAB.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B4679D01976F7050026BAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAFD53F1A9328080081AFF4 /* GoogleIAB.framework in Frameworks */,
+				BC869D091A7C3DB60029DB47 /* JavaFoundation.framework in Frameworks */,
+				BC869D071A7C3A4B0029DB47 /* AndroidKit.framework in Frameworks */,
+				BC869D041A7C3A160029DB47 /* CoreJava.framework in Frameworks */,
+				BC869D021A7C39B70029DB47 /* JavaKit.framework in Frameworks */,
+				5B4679D71976F7050026BAAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B467A1C1976F9810026BAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC869D051A7C3A240029DB47 /* CoreJava.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B4679CA1976F7050026BAAF = {
+			isa = PBXGroup;
+			children = (
+				5B4679D51976F7050026BAAF /* Frameworks */,
+				5B4679DC1976F7050026BAAF /* IAB Sample */,
+				5B4679D41976F7050026BAAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B4679D41976F7050026BAAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B4679D31976F7050026BAAF /* IAB Sample.app */,
+				5B467A111976F8880026BAAF /* IAB Java.jar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B4679D51976F7050026BAAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCAFD53E1A9328080081AFF4 /* GoogleIAB.framework */,
+				BC869D081A7C3DB60029DB47 /* JavaFoundation.framework */,
+				BC869D061A7C3A4B0029DB47 /* AndroidKit.framework */,
+				BC869D031A7C3A160029DB47 /* CoreJava.framework */,
+				BC869D011A7C39B70029DB47 /* JavaKit.framework */,
+				5B4679D61976F7050026BAAF /* Foundation.framework */,
+				5B4679D81976F7050026BAAF /* CoreGraphics.framework */,
+				5B4679EF1976F7050026BAAF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B4679DC1976F7050026BAAF /* IAB Sample */ = {
+			isa = PBXGroup;
+			children = (
+				5B5CC4551979A0680070E9EB /* java */,
+				5B4679DD1976F7050026BAAF /* Supporting Files */,
+				5B467A051976F76D0026BAAF /* IABSample.h */,
+				5B467A061976F76D0026BAAF /* IABSample.m */,
+				1480FCFA1979C1DC00644F20 /* R.h */,
+				1480FCFB1979C1DC00644F20 /* R.m */,
+			);
+			path = "IAB Sample";
+			sourceTree = "<group>";
+		};
+		5B4679DD1976F7050026BAAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B4679DE1976F7050026BAAF /* IAB Sample-Info.plist */,
+				5B4679DF1976F7050026BAAF /* InfoPlist.strings */,
+				5B4679E41976F7050026BAAF /* IAB Sample-Prefix.pch */,
+				5B467A0A1976F7B90026BAAF /* AndroidManifest.xml */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B5CC4551979A0680070E9EB /* java */ = {
+			isa = PBXGroup;
+			children = (
+				5B5CC4561979A0680070E9EB /* com */,
+			);
+			path = java;
+			sourceTree = "<group>";
+		};
+		5B5CC4561979A0680070E9EB /* com */ = {
+			isa = PBXGroup;
+			children = (
+				5B5CC4571979A0680070E9EB /* apportable */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		5B5CC4571979A0680070E9EB /* apportable */ = {
+			isa = PBXGroup;
+			children = (
+				5B5CC4581979A0680070E9EB /* bridgekitv3 */,
+			);
+			path = apportable;
+			sourceTree = "<group>";
+		};
+		5B5CC4581979A0680070E9EB /* bridgekitv3 */ = {
+			isa = PBXGroup;
+			children = (
+				5B5CC4591979A0680070E9EB /* iab */,
+			);
+			name = bridgekitv3;
+			path = example;
+			sourceTree = "<group>";
+		};
+		5B5CC4591979A0680070E9EB /* iab */ = {
+			isa = PBXGroup;
+			children = (
+				1480FCF81979C11200644F20 /* IABSample.java */,
+			);
+			path = iab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B4679D21976F7050026BAAF /* IAB Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4679FF1976F7050026BAAF /* Build configuration list for PBXNativeTarget "IAB Sample" */;
+			buildPhases = (
+				5B4679CF1976F7050026BAAF /* Sources */,
+				5B4679D01976F7050026BAAF /* Frameworks */,
+				5B4679D11976F7050026BAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B467A1F1976F98D0026BAAF /* PBXTargetDependency */,
+			);
+			name = "IAB Sample";
+			productName = "IAB Sample";
+			productReference = 5B4679D31976F7050026BAAF /* IAB Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B467A101976F8880026BAAF /* IAB Java */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B467A121976F8880026BAAF /* Build configuration list for PBXNativeTarget "IAB Java" */;
+			buildPhases = (
+				5B467A0E1976F8880026BAAF /* Sources */,
+				5B467A1C1976F9810026BAAF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IAB Java";
+			productName = "IAB Java";
+			productReference = 5B467A111976F8880026BAAF /* IAB Java.jar */;
+			productType = "com.apportable.java.product-type.library";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B4679CB1976F7050026BAAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Apportable;
+			};
+			buildConfigurationList = 5B4679CE1976F7050026BAAF /* Build configuration list for PBXProject "IAB Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B4679CA1976F7050026BAAF;
+			productRefGroup = 5B4679D41976F7050026BAAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B4679D21976F7050026BAAF /* IAB Sample */,
+				5B467A101976F8880026BAAF /* IAB Java */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B4679D11976F7050026BAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4679E11976F7050026BAAF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B4679CF1976F7050026BAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1480FCFC1979C1DC00644F20 /* R.m in Sources */,
+				5B467A071976F76D0026BAAF /* IABSample.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B467A0E1976F8880026BAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1480FCF91979C11200644F20 /* IABSample.java in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B467A1F1976F98D0026BAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B467A101976F8880026BAAF /* IAB Java */;
+			targetProxy = 5B467A1E1976F98D0026BAAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B4679DF1976F7050026BAAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B4679E01976F7050026BAAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B4679FD1976F7050026BAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = apportablesdk1.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B4679FE1976F7050026BAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = apportablesdk1.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B467A001976F7050026BAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ANDROID_KEYSTORE = "";
+				ANDROID_KEYSTORE_PASS = "";
+				ANDROID_MANIFEST = "$(SRCROOT)/IAB Sample/AndroidManifest.xml";
+				ANDROID_RES_DIRS = "\"$(SRCROOT)/IAB Sample/res\"";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IAB Sample/IAB Sample-Prefix.pch";
+				INFOPLIST_FILE = "IAB Sample/IAB Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = apportablesdk;
+				SIGNING_PUBKEY = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B467A011976F7050026BAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ANDROID_KEYSTORE = "";
+				ANDROID_KEYSTORE_PASS = "";
+				ANDROID_MANIFEST = "$(SRCROOT)/IAB Sample/AndroidManifest.xml";
+				ANDROID_RES_DIRS = "\"$(SRCROOT)/IAB Sample/res\"";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IAB Sample/IAB Sample-Prefix.pch";
+				INFOPLIST_FILE = "IAB Sample/IAB Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = apportablesdk;
+				SIGNING_PUBKEY = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5B467A131976F8880026BAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(inherited)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = sbandroid;
+			};
+			name = Debug;
+		};
+		5B467A141976F8880026BAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				MACOSX_DEPLOYMENT_TARGET = "$(inherited)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = sbandroid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B4679CE1976F7050026BAAF /* Build configuration list for PBXProject "IAB Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4679FD1976F7050026BAAF /* Debug */,
+				5B4679FE1976F7050026BAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4679FF1976F7050026BAAF /* Build configuration list for PBXNativeTarget "IAB Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B467A001976F7050026BAAF /* Debug */,
+				5B467A011976F7050026BAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B467A121976F8880026BAAF /* Build configuration list for PBXNativeTarget "IAB Java" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B467A131976F8880026BAAF /* Debug */,
+				5B467A141976F8880026BAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B4679CB1976F7050026BAAF /* Project object */;
+}
